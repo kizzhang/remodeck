@@ -1,0 +1,31 @@
+/* editorial-dark-navy · midnight navy + brass-gold rule */
+:root {
+  --bg: #0e1624;
+  --paper-rgb: 14, 22, 36;
+  --ink: #e8eef7;
+  --ink-rgb: 232, 238, 247;
+  --grey-1: #1a2335;
+  --grey-2: #324159;
+  --grey-3: #6a7990;
+  --accent: #c8a14a;
+  --accent-rgb: 200, 161, 74;
+  --accent-on: #0e1624;
+  --accent-bright: #e0c171;
+  --copper: #c8a14a;
+
+  --text-primary: #e8eef7;
+  --text-secondary: #b8c2d6;
+  --text-helper: #6a7990;
+  --text-placeholder: #4a5670;
+  --text-on-color: #0e1624;
+  --border-subtle: #1a2335;
+  --border-strong: #324159;
+
+  --sans: "Inter", "Helvetica Neue", system-ui, -apple-system, sans-serif;
+  --sans-zh: "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans SC", sans-serif;
+  --serif: "DM Serif Display", "Playfair Display", "Times New Roman", Georgia, serif;
+  --mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+
+  --sp-3: 8px; --sp-4: 12px; --sp-5: 16px; --sp-6: 24px; --sp-7: 32px;
+  --sp-8: 40px; --sp-9: 48px; --sp-10: 64px; --sp-11: 80px; --sp-12: 96px; --sp-13: 160px;
+}

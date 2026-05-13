@@ -1,0 +1,31 @@
+/* editorial-dark-standard · warm umber dark + copper rule + Serif Display */
+:root {
+  --bg: #1a1410;
+  --paper-rgb: 26, 20, 16;
+  --ink: #f3ebde;
+  --ink-rgb: 243, 235, 222;
+  --grey-1: #2a221c;
+  --grey-2: #4a3e30;
+  --grey-3: #8a7a64;
+  --accent: #b97a48;
+  --accent-rgb: 185, 122, 72;
+  --accent-on: #1a1410;
+  --accent-bright: #d99e6c;
+  --copper: #b97a48;
+
+  --text-primary: #f3ebde;
+  --text-secondary: #c7b9a3;
+  --text-helper: #8a7a64;
+  --text-placeholder: #5a4733;
+  --text-on-color: #1a1410;
+  --border-subtle: #2a221c;
+  --border-strong: #4a3e30;
+
+  --sans: "Inter", "Helvetica Neue", system-ui, -apple-system, sans-serif;
+  --sans-zh: "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans SC", sans-serif;
+  --serif: "DM Serif Display", "Playfair Display", "Times New Roman", Georgia, serif;
+  --mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+
+  --sp-3: 8px; --sp-4: 12px; --sp-5: 16px; --sp-6: 24px; --sp-7: 32px;
+  --sp-8: 40px; --sp-9: 48px; --sp-10: 64px; --sp-11: 80px; --sp-12: 96px; --sp-13: 160px;
+}
