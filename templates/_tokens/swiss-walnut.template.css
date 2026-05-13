@@ -1,0 +1,30 @@
+/* swiss-walnut · warm walnut brown on cream paper */
+:root {
+  --bg: #f5efe6;
+  --paper-rgb: 245, 239, 230;
+  --ink: #2b1a0e;
+  --ink-rgb: 43, 26, 14;
+  --grey-1: #ebe3d6;
+  --grey-2: #c7b9a3;
+  --grey-3: #8a7a64;
+  --accent: #6b3a17;
+  --accent-rgb: 107, 58, 23;
+  --accent-on: #f5efe6;
+  --accent-bright: #b87738;
+
+  --text-primary: #2b1a0e;
+  --text-secondary: #5a4733;
+  --text-helper: #8a7a64;
+  --text-placeholder: #b3a48a;
+  --text-on-color: #f5efe6;
+  --border-subtle: #d8cdb8;
+  --border-strong: #8a7a64;
+
+  --sans: "Inter", "Helvetica Neue", "Helvetica", "Arial", system-ui, -apple-system, sans-serif;
+  --sans-zh: "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans SC", sans-serif;
+  --serif: "Inter", system-ui, sans-serif;
+  --mono: "JetBrains Mono", "IBM Plex Mono", "SF Mono", ui-monospace, monospace;
+
+  --sp-3: 8px; --sp-4: 12px; --sp-5: 16px; --sp-6: 24px; --sp-7: 32px;
+  --sp-8: 40px; --sp-9: 48px; --sp-10: 64px; --sp-11: 80px; --sp-12: 96px; --sp-13: 160px;
+}

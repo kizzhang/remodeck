@@ -1,0 +1,30 @@
+/* swiss-yellow · Field yellow on neutral paper */
+:root {
+  --bg: #fafaf8;
+  --paper-rgb: 250, 250, 248;
+  --ink: #0a0a0a;
+  --ink-rgb: 10, 10, 10;
+  --grey-1: #f0f0ee;
+  --grey-2: #d4d4d2;
+  --grey-3: #737373;
+  --accent: #ffd000;
+  --accent-rgb: 255, 208, 0;
+  --accent-on: #0a0a0a;
+  --accent-bright: #ffe566;
+
+  --text-primary: #0a0a0a;
+  --text-secondary: #525252;
+  --text-helper: #737373;
+  --text-placeholder: #a3a3a3;
+  --text-on-color: #0a0a0a;
+  --border-subtle: #e0e0e0;
+  --border-strong: #a3a3a3;
+
+  --sans: "Inter", "Helvetica Neue", "Helvetica", "Arial", system-ui, -apple-system, sans-serif;
+  --sans-zh: "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans SC", sans-serif;
+  --serif: "Inter", system-ui, sans-serif;
+  --mono: "JetBrains Mono", "IBM Plex Mono", "SF Mono", ui-monospace, monospace;
+
+  --sp-3: 8px; --sp-4: 12px; --sp-5: 16px; --sp-6: 24px; --sp-7: 32px;
+  --sp-8: 40px; --sp-9: 48px; --sp-10: 64px; --sp-11: 80px; --sp-12: 96px; --sp-13: 160px;
+}
