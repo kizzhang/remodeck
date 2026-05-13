@@ -1,0 +1,122 @@
+/* remodeck base layer · direction-neutral · all colors via tokens */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans, system-ui), var(--sans-zh, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* deck stage scales 1920x1080 frame to viewport via DeckStage.tsx */
+.deck-stage {
+  position: fixed;
+  inset: 0;
+  display: block;
+  background: var(--bg);
+}
+.deck-frame {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1920px;
+  height: 1080px;
+  transform-origin: 0 0;
+}
+
+/* slide root rendered inside .deck-frame; direction tokens style backgrounds */
+.deck-slide {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+}
+
+/* HUD: bottom-right page counter + key hints */
+.deck-hud {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  color: var(--ink);
+  opacity: 0.55;
+  font-family: var(--mono, ui-monospace, monospace);
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  pointer-events: none;
+  z-index: 100;
+}
+.deck-hud b {
+  font-weight: 600;
+}
+.deck-hud-hint {
+  position: fixed;
+  left: 24px;
+  bottom: 24px;
+  color: var(--ink);
+  opacity: 0.35;
+  font-family: var(--mono, ui-monospace, monospace);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  pointer-events: none;
+  z-index: 100;
+}
+
+/* generic chrome / foot styling — directions can override .deck-chrome / .deck-foot */
+.deck-chrome {
+  position: absolute;
+  left: 96px;
+  top: 64px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: var(--mono, ui-monospace, monospace);
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+}
+.deck-chrome-mark {
+  font-size: 18px;
+}
+.deck-foot {
+  position: absolute;
+  left: 96px;
+  right: 96px;
+  bottom: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--mono, ui-monospace, monospace);
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+}
+.deck-foot-rule {
+  display: inline-block;
+  width: 120px;
+  height: 2px;
+  background: var(--accent);
+}
+
+/* honor reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
