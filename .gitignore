@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# editors
+.idea/
+.vscode/
+*.swp
+
+# node (in case engineer scaffolds a test project inside repo)
+node_modules/
+dist/
+exports/
+
+# claude
+.claude/
