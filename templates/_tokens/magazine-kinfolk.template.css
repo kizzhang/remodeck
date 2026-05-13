@@ -1,0 +1,30 @@
+/* magazine-kinfolk · soft cream + sage green + airy serif */
+:root {
+  --bg: #f5f1e8;
+  --paper-rgb: 245, 241, 232;
+  --ink: #2a2e25;
+  --ink-rgb: 42, 46, 37;
+  --grey-1: #ebe5d6;
+  --grey-2: #c8c2b0;
+  --grey-3: #888272;
+  --accent: #6e8268;
+  --accent-rgb: 110, 130, 104;
+  --accent-on: #f5f1e8;
+  --accent-bright: #93a48b;
+
+  --text-primary: #2a2e25;
+  --text-secondary: #565a4e;
+  --text-helper: #888272;
+  --text-placeholder: #b3ad9d;
+  --text-on-color: #f5f1e8;
+  --border-subtle: #d8d2c0;
+  --border-strong: #888272;
+
+  --sans: "Inter", "Helvetica Neue", system-ui, -apple-system, sans-serif;
+  --sans-zh: "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans SC", sans-serif;
+  --serif: "DM Serif Display", "Lyon Display", "Playfair Display", Georgia, serif;
+  --mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+
+  --sp-3: 8px; --sp-4: 12px; --sp-5: 16px; --sp-6: 24px; --sp-7: 32px;
+  --sp-8: 40px; --sp-9: 48px; --sp-10: 64px; --sp-11: 80px; --sp-12: 96px; --sp-13: 160px;
+}

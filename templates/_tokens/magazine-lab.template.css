@@ -1,0 +1,30 @@
+/* magazine-lab · academic blue-gray + cobalt accent + scholarly serif */
+:root {
+  --bg: #ecedef;
+  --paper-rgb: 236, 237, 239;
+  --ink: #131822;
+  --ink-rgb: 19, 24, 34;
+  --grey-1: #dcdee2;
+  --grey-2: #a4a8b2;
+  --grey-3: #6a6e78;
+  --accent: #1a3a8a;
+  --accent-rgb: 26, 58, 138;
+  --accent-on: #ecedef;
+  --accent-bright: #3960c9;
+
+  --text-primary: #131822;
+  --text-secondary: #3a3f4a;
+  --text-helper: #6a6e78;
+  --text-placeholder: #9aa0aa;
+  --text-on-color: #ecedef;
+  --border-subtle: #ccced4;
+  --border-strong: #6a6e78;
+
+  --sans: "Inter", "Helvetica Neue", system-ui, -apple-system, sans-serif;
+  --sans-zh: "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans SC", sans-serif;
+  --serif: "DM Serif Display", "EB Garamond", Georgia, serif;
+  --mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+
+  --sp-3: 8px; --sp-4: 12px; --sp-5: 16px; --sp-6: 24px; --sp-7: 32px;
+  --sp-8: 40px; --sp-9: 48px; --sp-10: 64px; --sp-11: 80px; --sp-12: 96px; --sp-13: 160px;
+}

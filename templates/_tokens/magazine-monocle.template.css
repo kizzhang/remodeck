@@ -1,0 +1,30 @@
+/* magazine-monocle · refined beige + signature red highlight + Tiempos-style serif */
+:root {
+  --bg: #f3eee5;
+  --paper-rgb: 243, 238, 229;
+  --ink: #18130d;
+  --ink-rgb: 24, 19, 13;
+  --grey-1: #e6dfd0;
+  --grey-2: #b8aa8a;
+  --grey-3: #7a6e54;
+  --accent: #b8302a;
+  --accent-rgb: 184, 48, 42;
+  --accent-on: #f3eee5;
+  --accent-bright: #d05a4c;
+
+  --text-primary: #18130d;
+  --text-secondary: #4a4030;
+  --text-helper: #7a6e54;
+  --text-placeholder: #aa9e80;
+  --text-on-color: #f3eee5;
+  --border-subtle: #d6cdb6;
+  --border-strong: #7a6e54;
+
+  --sans: "Inter", "Helvetica Neue", system-ui, -apple-system, sans-serif;
+  --sans-zh: "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans SC", sans-serif;
+  --serif: "DM Serif Display", "Tiempos Headline", "Playfair Display", Georgia, serif;
+  --mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+
+  --sp-3: 8px; --sp-4: 12px; --sp-5: 16px; --sp-6: 24px; --sp-7: 32px;
+  --sp-8: 40px; --sp-9: 48px; --sp-10: 64px; --sp-11: 80px; --sp-12: 96px; --sp-13: 160px;
+}
