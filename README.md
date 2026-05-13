@@ -31,6 +31,10 @@ templates/                     # files the bootstrap step copies into a fresh Vi
 docs/                          # design specs + implementation plans (this repo's own docs)
 ```
 
+## Verified pipeline
+
+End-to-end smoke test (2026-05-13): scaffold a Vite project from `templates/` via the SKILL.md Step 0 script, drop a single `Slide`-wrapped page, `npm install && npm run build && npm run bundle` → produces a self-contained `exports/<topic>-single-file.html` (264 KB for one-slide minimum, with the Remotion `staticFile` shim + `window.__REMODECK_ASSETS__` map inlined at the top of the document).
+
 ## License
 
 MIT.
